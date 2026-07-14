@@ -1,5 +1,8 @@
+/*
+    Leetcode Link   : https://leetcode.com/problems/valid-anagram/description/
+*/
 class Solution {
-    //Sorting 
+    //Approch (Using Sorting) 
     public boolean isAnagram(String s, String t) {
         char[] sc = s.toCharArray();
         char[] tc = t.toCharArray();
