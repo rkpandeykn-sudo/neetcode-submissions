@@ -1,7 +1,6 @@
 /**
     Leetcode: https://leetcode.com/problems/valid-palindrome/description/
-*
-*/
+**/
 class Solution {
     public boolean isPalindrome(String s) {
         s = s.toLowerCase().replaceAll("[^a-z0-9]", "");
